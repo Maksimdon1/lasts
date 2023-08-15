@@ -2,22 +2,6 @@
 
 
 const express = require('express');
-const bodyParser = require('body-parser');
-const fs = require('fs');
-
-
-
-// Declare app
-
-
-
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-app.use(bodyParser.raw());
-
-const jsonParser = express.json();
-// middlewares
-
 
 
 const filepath = './users.json'
